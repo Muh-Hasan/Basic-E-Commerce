@@ -1,0 +1,65 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.foot-account li {
+    list-style: none;
+}
+.foot-account li a{
+    color: black;
+    font-weight: 400;
+}
+.foot-account{
+    margin-top: 20px;
+    text-align: center;
+}
+.foot-account h2{
+    font-size: 25px;
+    font-weight: 600;  
+}
+
+
+.footer-touch h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.footer-touch p{
+    font-size: 18px;
+}
+.footer-touch input{
+    border: 2px solid black;
+}
+.footer-touch i{
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 5px;
+} 
+.footer-touch i:hover{
+    color: #BDBDBD    ;
+
+}
+
+
+.foot-shop{
+    margin-top: 20px;
+    text-align: center;
+}
+.foot-shop li{
+    list-style: none;
+}
+.foot-shop li a{
+    color: black;
+}
+.foot-shop h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.foot-copy p{
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}

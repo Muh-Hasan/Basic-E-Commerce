@@ -1,0 +1,119 @@
+
+/* font-family: 'Source Sans Pro', sans-serif; */
+*{
+    
+    font-family: 'Source Sans Pro', sansserif;
+
+}
+
+/* main navbar  */
+.navbar{
+    background-color:white!important;
+}
+.dropdown-item{
+    color: black
+ !important;
+}
+.navbar-brand{
+    font-size: 22px;
+    margin-right: 20px;
+    font-weight: 600;
+    letter-spacing: 8px;
+}
+.nav-item a{
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.nav-icon i{
+    font-size: 17px;
+    margin-right: 10px;
+}
+.form-control{
+    border: none !important;
+    border-bottom: 2px solid black !important;
+    background: transparent !important;
+    border-radius:0px !important;
+    outline: none !important;
+}
+
+a{
+    color: black;
+}
+a:hover{
+   color:#E0E0E0
+;
+
+}
+.btn{
+    border: 2px solid white;
+    outline: none !important;
+    color: black;
+}
+.btn:hover{
+    background-color: #E0E0E0
+;
+    outline: none !important;
+    border: #E0E0E0
+;
+    color: black;
+}
+.fa-search{
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.fa-search:hover{
+ color: #E0E0E0
+;   
+}
+.fa-bars{
+    color: black;
+    font-size: 26px;
+    margin-right: 10px;
+}
+.fa-bars:hover{
+    color: #E0E0E0
+;
+}
+.dropdown-menu{
+    border: 1px solid rgb(148, 111, 111)
+ !important;
+}
+.dropdown-item:hover{
+    background-color: #E0E0E0
+;
+    color: white !important;
+}
+@media screen and (max-width: 991px){
+    .dropdown-menu{
+        background-color: transparent;
+        border: none !important;
+    }
+    .dropdown-item:hover{
+        background-color: #E0E0E0
+;
+    }
+    .dropdown-item{
+        color: black !important;
+    }
+}
+@media screen and (max-width: 366px){
+    .navbar-brand{
+        font-size: 22px;
+        margin-right: 10px;
+        font-weight: 600;
+        letter-spacing: 5px;
+    }
+
+}
+@media screen and (max-width: 366px){
+    .navbar-brand{
+        font-size: 22px;
+        margin-right: 5px;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+
+}

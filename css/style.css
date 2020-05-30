@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Source Sans Pro', sansserif;
+}
+a:hover{
+    text-decoration: none;
+}
+.carousel-caption h5{
+    font-weight: 600;
+    font-size: 70px;
+    color: white;
+}
+.carousel-caption button{
+    padding: 6px 50px;
+    color: white;
+    border: none;
+    background-color: #212121;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.carousel-caption button:hover{
+    background-color: black;
+    color: white;
+}
+
+.online-dis{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+.dis-head h2{
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 50px;
+}
+.dis-one{
+    background-color: white;
+    height: 160px;
+    width: 180px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-right: 40px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.dis-one i{
+    display: flex;
+    font-size: 35px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.dis-one p{
+    font-weight: 400;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 4px;
+}
+.dis-one:hover{
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+.color{
+    background-color: #fafafa    ;
+}
+.new-arrivals{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.new-head h2{
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+    /* margin-top: 20px; */
+    padding-top: 50px;
+}
+.card{
+    margin-top: 20px;
+    width: 250px;
+    border: none !important;
+    border-radius: none !important;
+    transform: transform .2;
+    margin-right: 25px;
+}
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.card img{
+    height: 320px;
+    width: 100%;
+}
+.card-body p{
+    color: #BDBDBD    ;
+    display: inline-block;
+    font-size: 16px !important;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    cursor: text;
+}
+.card-body span{
+    display: inline-block;
+    margin-left: 10px;
+}
+.card-body span i{
+    color: #FFD700;
+    cursor: text;
+}
+.card-body h5{
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    color: black ;
+}
+.card-body div i{
+    color: #E0E0E0;
+    font-size: 17px;
+}
+.card-body div i:hover{
+    color: black;
+    margin-right:6px ;
+}
+.featured{
+    background-color: transparent;
+}
+.summer-sale{
+    text-align: center;
+    margin-top: 50px;
+}
+.summer-sale h2{
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.summer-sale p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.summer-sale button{
+    margin-top: 5px;
+    padding: 5px 30px 5px 30px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-bottom: 30px;
+}
+
+
+
+/* end of index.html */
+/* --------------------------------------------------------------------------------------------------------------- */
+/* -===================================-------------------------------------------------------------------------- */
+/* ============================================================================================================== */
+/* begin of login.html */
+.login{
+    height: 520px;
+    width: 380px;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    margin: 150px auto;
+}
+
+.login-email{
+    color: gray;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 40px;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.login-forget{
+    display: flex;
+    justify-content: center;
+}
+.login-forget label{
+    margin-right: 30px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.login-forget input{
+    margin-right: 10px;
+}
+.lo-for{
+    font-size: 15px;
+    font-weight: 500;
+    color: #E0E0E0;
+    cursor: pointer;
+}
+.login-with{
+    font-size: 25px;
+    font-weight: 600;
+}
+.login-btn button{
+    padding: 8px 28px 8px 28px;
+    border: 1px solid lightgray;
+    margin-bottom: 40px;
+    outline: none;
+}
+.login-btn button:hover{
+    background-color: #E0E0E0;
+    color: black;
+}
+.login-icons i{
+    font-size: 35px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.login-icons i:hover{
+    color: #E0E0E0;
+}
+.login-head h2{
+    padding-top: 20px;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: black;
+}
+.not-regis{
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.not-regis:hover{
+    color:#E0E0E0;
+}
+.not-reg a{
+    text-decoration: none;
+}
+.not-reg a:hover{
+    text-decoration: none;
+}
+
+/* ========================================================================= */
+/* end of login.html */
+/* -------------------------------------------------------------------------- */
+/* register.html */
+/* =========================================================================== */
+
+.register{
+    height: 600px;
+    width: 380px;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    margin: 150px auto;
+}
+.reg-top h2{
+    padding-top: 20px;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: black;
+}
+.reg-name input{
+    color: gray;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;  
+}
+.reg-email input{
+    color: gray;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;   
+}
+.reg-pass input{
+    color: gray;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.reg-butn button{
+    padding: 8px 28px 8px 28px;
+    border: 1px solid lightgray;
+    margin-bottom: 40px;
+    outline: none;
+}
+.reg-butn button:hover{
+    background-color: #E0E0E0;
+}
+.reg-signup p{
+    font-size: 25px;
+    font-weight: 600;
+}
+.reg-icons i{
+    font-size: 35px;
+    margin-right: 10px;
+    cursor: pointer;   
+}
+.reg-icons i:hover{
+    color: #E0E0E0;
+}
+.reg-p{
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 40px;
+    text-decoration: none;
+}
+.reg-regis p:hover{
+    text-decoration: none;
+    color: #E0E0E0;
+}
+.reg-regis a:hover{
+    text-decoration: none;
+}
+/* ================================================================ */
+/* 0000000000000000000000000000000000000000000000000000000000000000 */
+/* -=============================================================== */
+/* end of register.html */
+/* ================================================================== */
+/* wishlist.html */
+table{
+    background-color: #fafafa;
+}
+.wish-img img{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}
+.wish-body{
+    text-align: center;
+    margin-top: 100px;
+}
+.wish-body i:hover{
+    color: #BDBDBD;
+}
+.wish-body i{
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.wish-all button{
+    padding: 4px 8px 4px 8px;
+    border:1px solid lightgray;
+    margin-top: 10px;
+}
+.wish-all button:hover{
+    color: white;
+    background-color: #BDBDBD;
+    /* background-color: red; */
+}
+.wish-all{
+    font-weight: 500;
+}
+.my-cart h3{
+    margin-top: 100px;
+    font-weight: 600;
+    text-align: center;
+}
+.proc{
+    height: 30px;
+    width: 250px;
+    margin-top: 30px;
+    background-color: black;
+    border: none !important;
+    color: white;
+}
+
+.proc{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+/* ======================================================================================= */
+/* end of wishlist  */
+/* ========================================================================================== */

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wishlist</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <a class="navbar-brand" href="index.html">ONLINE STORE</a>
+    <i class="fas fa-bars navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></i>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Shop
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="shop.html">Men's</a>
+            <a class="dropdown-item" href="shop.html">Woman's</a>
+            <a class="dropdown-item" href="shop.html">Kid's</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#"></a>
+        </li>
+        <li class="nav-item">
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <i class="fas fa-search"></i>
+          </form>
+        </li>
+      </ul>
+      <span class="navbar-text nav-icon">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link " href="login.html"><i class="far fa-user"></i> </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="wishlist.html"> <i class="far fa-heart"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="cart.html"> <i class="fas fa-shopping-cart"></i></a>
+          </li>
+        </ul>
+      </span>
+    </div>
+  </nav>
+  <!-- ======================================================= -->
+  <!-- end of nav bar -->
+  <!-- =======================================================-->
+  <table class="table table-bordered wish-body container">
+    <thead class="">
+      <tr>
+        <th scope="col">Remove</th>
+        <th scope="col">Product</th>
+        <th scope="col">Price</th>
+        <th scope="col">Add To Cart</th>
+      </tr>
+    </thead>
+    <tbody class="wish-img">
+      <tr class="wish-all">
+        <th scope="row"><i class="far fa-trash-alt"></i></th>
+        <td class="wish-td"><img src="images/anomaly-WWesmHEgXDs-unsplash.jpg">Beautifull Shirt</td>
+        <td>1500.00</td>
+        <td><button type="button">ADD TO CART</button></td>
+      </tr>
+      <tr class="wish-all">
+        <th scope="row"><i class="far fa-trash-alt"></i></th>
+        <td class="wish-td"><img src="images/nine.jpg" alt="">Girl Pant</td>
+        <td>2000.00</td>
+        <td><button type="button">ADD TO CART</button></td>
+      </tr>
+      <tr class="wish-all">
+        <th scope="row"><i class="far fa-trash-alt"></i></th>
+        <td class="wish-td"><img src="images/six.jpg" alt="">Kids Shirt</td>
+        <td>1000.00</td>
+        <td><button type="button">ADD TO CART</button></td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="share">
+    <div>
+      <p>Share On:</p>
+    </div>
+    <div>
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-linkedin-in"></i>
+      <i class="fab fa-pinterest-p"></i>
+    </div>
+  </div>
+  <!-- ===================================================================================== -->
+  <div class="color">
+    <div class="footer container">
+      <div class="footer-touch col-md-4">
+        <div>
+          <h2>Be In Touch</h2>
+          <p>Get amazing discounts and offers</p>
+          <input type="text">
+          <i class="far fa-envelope"></i>
+        </div>
+      </div>
+      <div class="foot-shop col-md-4">
+        <h2>Shop</h2>
+        <ul>
+          <li><a href="shop.html">For Men's</a></li>
+          <li><a href="shop.html">For Woman's</a></li>
+          <li><a href="shop.html">For Kid's</a></li>
+        </ul>
+      </div>
+      <div class="foot-account col-md-4">
+        <h2>Your Account</h2>
+        <ul>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="wishlist.html">Wishlist</a></li>
+          <li><a href="checkout.html">Checkout</a></li>
+        </ul>
+      </div>
+      <div class="foot-copy">
+        <p>© 2020 Muhammad Hasan. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+  <!-- ====================================================================================== -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

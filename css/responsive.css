@@ -1,0 +1,50 @@
+/* ====================================== */
+/* index.html */
+@media screen and (max-width: 480px){
+    .online-dis{
+        justify-content: center;
+    }
+    .new-arrivals{
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 397px){
+    .login{
+        height: 520px;
+        width: 330px;
+    
+    }
+    .register{
+        height: 600px;
+        width: 330px;
+    }
+}
+@media screen and (max-width: 342px){
+    .login{
+        height: 520px;
+        width: 300px;
+    
+    }
+
+    .register{
+        height: 600px;
+        width: 300px;
+    }
+}
+@media screen and (max-width: 316px){
+    .login{
+        height: 520px;
+        width: 280px;
+    
+    }
+    .register{
+        height: 600px;
+        width: 280px;
+    }
+}
+@media screen and (max-width: 1220px){
+    .new-arrivals{
+      justify-content: center;
+    }
+  }

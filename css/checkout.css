@@ -1,0 +1,70 @@
+.flex-che{
+  display: flex;
+  flex-direction: column;  /* height: 550px;
+  width: 650px; */
+  /* margin: 0 auto; */
+  background-color: #fafafa;
+}
+.center{
+  margin: 0 auto;
+}
+.check h2{
+  margin-top: 70px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 600;
+}
+.form-1 h3{
+  padding-top: 30px;
+  /* margin-left: 30px; */
+}
+input[type=text] {
+  width: 250px;
+  margin-right: 20px;
+  /* margin-left: 30px; */
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+.for-card label{
+  /* margin-left: 40px; */
+  margin-right: 20px;
+}
+.for-sma input{
+  width: 95px;
+}
+.for-card i{
+  font-size: 20px;
+}
+/* -=----=-=-=--=-=-=-=-=-=-=-=-=-=-=-= */
+.for-items a{
+  display: inline-block;
+}
+.for-items p{
+  display: inline-block;
+  font-weight: 600;
+  margin-left: 100px;
+}
+.for-sub p{
+  font-weight: 700;
+}
+button{
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 3px;
+  width: 300px;
+  border: none;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 330px){
+  button{
+    width: 250px;
+  }
+}
+
+
+
+
+

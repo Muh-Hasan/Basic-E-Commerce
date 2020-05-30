@@ -1,0 +1,59 @@
+.map{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+.num{
+    margin-left: 40px;
+    display: flex;
+    margin-top: 20px;
+}
+.num i{
+    color: black;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.num p{
+    font-size: 18px;
+    margin: 0;
+}
+.email{
+   
+    margin-left: 40px;
+    display: flex;
+    margin-top: 20px; 
+}
+.email i{
+    color: black;
+    font-size: 20px;
+    margin-right: 10px; 
+}
+.email p{
+    font-size: 18px;
+    margin: 0; 
+}
+.color{
+    background-color: #fafafa    ;
+}
+@media screen and (max-width: 980px){
+    h2{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .num{
+        margin-left: 0;
+    }
+    .email{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 330px){
+    iframe{
+        width: 270px;
+    }
+}
